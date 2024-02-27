@@ -1,0 +1,336 @@
+
+
+
+/*css for navigation*/
+.navbar{
+           
+    background-color: #888 !important;
+}
+
+.navbar.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbarNav ul li a{
+  font-size: 20px;
+  font-weight: bold;
+}
+#navbarNav ul li a:hover{
+  color: aliceblue;
+  transition:.6s;
+
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+#home{
+    height: 700px;
+  }
+ /* Css for my skil section*/
+ #skills{
+    text-align: center;
+           }
+           .codingskills-1{ width: 400px; background-color: gray;
+          
+                }
+            .skillsets-1{
+            text-align: right;
+            color: white;
+            padding-right: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            }
+            
+            .myc{
+            width:80%;
+            background-color:rgb(76, 0, 255);
+            }
+            .codingskills-2{
+            width: 400px;
+            background-color: gray;
+            
+            }
+            .skillsets-2{
+            text-align: right;
+            color: white;
+            padding-right: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            }
+            
+            .myjava{
+            width:85%;
+            background-color:rgb(76, 0, 255);
+            }
+            .codingskills-3{
+            width: 400px;
+            background-color: gray;
+            
+            }
+            .skillsets-3{
+            text-align: right;
+            color: white;
+            padding-right: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            }
+            
+          
+      
+              .mycd{
+                  width:75%;
+                  background-color:rgb(76, 0, 255);
+              }
+              .codingskills-4{
+                  width: 400px;
+                  background-color: gray;
+                  
+                }
+              .skillsets-4{
+                text-align: right;
+                color: white;
+                padding-right: 5px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                    }
+                
+                    .mysql{
+                        width:85%;
+                        background-color:rgb(76, 0, 255);
+                    }
+              .webskills-1{
+                  width: 400px;
+                  background-color: gray;
+              }
+              .skillset-1{
+                  text-align: right;
+                  color: white;
+                  padding-right: 5px;
+                  padding-top: 8px;
+                  padding-bottom: 8px;
+            
+              }
+              .myhtml{
+                  width:85%;
+                  background-color:green; 
+              }
+              .webskills-2{
+                  width: 400px;
+                  background-color: gray;
+              }
+              .skillset-2{
+                  text-align: right;
+                  color: white;
+                  padding-right: 5px;
+                  padding-top: 8px;
+                  padding-bottom: 8px;
+            
+              }
+              .mycss{
+                  width:85%;
+                  background-color:green; 
+              }
+            .webskills-3{
+                width: 400px;
+                background-color: gray;
+            }
+            .skillset-3{
+                text-align: right;
+                color: white;
+                padding-right: 5px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            
+            }
+            .myjavascript{
+                width:80%;
+                background-color:green; 
+            } 
+    .downloadcv{
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(38, 38, 167);
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding: 20px;
+    border-color: rgb(128, 45, 45);
+    color: rgb(38, 126, 38);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    
+    margin-bottom: 20px;
+  }
+  .downloadcv:hover{
+  
+  color: rgb(67, 177, 177);
+  transition: .6px;
+  background-color: blue;
+  text-decoration: none;
+  }
+  /* Styles for project section */
+  #projects .project-inner-box {
+              text-align: center;
+              padding: 40px 20px;
+              margin-bottom: 30px;
+              background-color: #332c2c;
+              border-radius: 5px;
+              transition: all 0.3s ease-in-out;
+              
+          }
+          #projects .section-title p {
+              font-size: 20px;
+              color: #888;
+              margin-bottom: 30px;
+              font-weight: bold;
+          }
+          #projects .project-inner-box:hover{
+            background-color:gray;
+          }
+         
+          #projects .project-inner-box h4{
+            color: #fff;
+            margin-top: 20px;
+          }
+          #projects .project-inner-box ul li{
+  
+            color: #fff;
+            
+          }
+          #projects .project-inner-box  a{
+            text-decoration: none;
+            font-size: 20px;
+            
+            color: aqua;
+          }
+          #projects .project-inner-box p{
+            color: antiquewhite;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+          }
+       /* Styles .service section*/
+      
+        #services .section-title h3 {
+              
+              font-weight: bold;
+              margin-bottom: 20px;
+          }
+  
+          #services .section-title p {
+              font-size: 20px;
+              color: #888;
+              margin-bottom: 30px;
+              font-weight: bold;
+          }
+  
+          #services .services-inner-box {
+              text-align: center;
+              padding: 40px 20px;
+              margin-bottom: 30px;
+              background-color: #332c2c;
+              border-radius: 5px;
+              transition: all 0.5s ease-in-out;
+          }
+  
+          #services .services-inner-box:hover {
+              background-color: #de4242;
+          }
+  
+          
+  
+          #services .services-inner-box h2 {
+              font-size: 30px;
+              font-weight: bold;
+              margin-bottom: 15px;
+              color: #fff;
+          }
+  
+          #services .services-inner-box p {
+              font-size: 16px;
+              color: #fff;
+          }
+         
+      
+  
+  /*style of contact me*/
+  .containers {
+        
+       
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(166, 195, 176, 0.1);
+      }
+      .h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+  
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+  
+      input[type="text"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+  
+      textarea {
+        height: 150px;
+      }
+  
+      .btn {
+        display: block;
+        width: 20%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        background-color: #4CAF50;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .btn:hover {
+        background-color: #45a049;
+      }
+      .error-message {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+  
+      /*sstyle for footer*/
+      .footers {
+        background-color:gray;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        
+      }
+  
+      .footer a {
+        color: goldenrod;
+        text-decoration:none;
+        margin:0 10px;
+        
+      }
+  
+      .footer a:hover {
+        color: #007bff;
+        font-size: 40px;
+      }
+       
